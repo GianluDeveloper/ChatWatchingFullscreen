@@ -11,7 +11,7 @@ let canNotify = false;
 let alreadyToggled = false;
 //let nickName = promt('Nick?')
 
-var notifica = new Audio("juntos-607.mp3");
+var notifica = new Audio("assets/juntos-607.mp3");
 function notify() {
   if (silenzioso === false && !isFullscreen()) {
     notifica.currentTime = 0;
@@ -20,7 +20,7 @@ function notify() {
 }
 function makeNotify(msg) {
   let title = "Nuovo messaggio!";
-  let icon = "1f618.png";
+  let icon = "assets/1f618.png";
   let body = msg; // + ' da ' + nickName
   if (canNotify && !isFullscreen()) {
     var notification = new Notification(title, { body, icon });

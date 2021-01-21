@@ -1,6 +1,6 @@
 #credits {
   padding: 0 0 10px 0;
-  font: 'Open Sans', italic 12px, sans-serif;
+  font: "Open Sans", italic 12px, sans-serif;
 }
 
 #video {
@@ -73,48 +73,48 @@ iframe {
   transition: 0.6s ease opacity, 0.6s ease transform;
 }
 .em-heart {
-  background-image: url('2764.png');
+  background-image: url("assets/2764.png");
 }
 .em-heart.em-svg {
-  background: url('2764.png');
+  background: url("assets/2764.png");
 }
 
 .occhiheart {
-  background-image: url('1f60d.png');
+  background-image: url("assets/1f60d.png");
 }
 .sorrisino {
-  background-image: url('1f642.png');
+  background-image: url("assets/1f642.png");
 }
 .sorrisocuori {
-  background-image: url('1f970.png');
+  background-image: url("assets/1f970.png");
 }
 
 .kissing_heart {
-  background-image: url('1f618.png');
+  background-image: url("assets/1f618.png");
 }
 .em-kissing_heart.em-svg {
-  background: url('1f618.png');
+  background: url("assets/1f618.png");
 }
 
 .joy_cat {
-  background-image: url('1f639.png');
+  background-image: url("assets/1f639.png");
 }
 .em-joy_cat.em-svg {
-  background: url('1f639.png');
+  background: url("assets/1f639.png");
 }
 
 .kiss {
-  background-image: url('1f48b.png');
+  background-image: url("assets/1f48b.png");
 }
 .em-kiss.em-svg {
-  background: url('1f48b.png');
+  background: url("assets/1f48b.png");
 }
 
 .lingua {
-  background-image: url('1f61c.png');
+  background-image: url("assets/1f61c.png");
 }
 .em-lingua.em-svg {
-  background: url('1f61c.png');
+  background: url("assets/1f61c.png");
 }
 
 .em,
