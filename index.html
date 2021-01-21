@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Fullscreen Video Chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="contents">
+     
+      <div id="video" style="display:none;">
+       
+        <video description=""
+          id="videotest"
+          class="frame"
+        ></video>
+        <div id="mywrite" style="display: none;"></div>
+        <div id="chat">
+          <span id="chatcontent"></span>
+        </div>
+      </div>
+      <h1 style="text-align: center;">
+        <em
+          class="em kissing_heart"
+          aria-role="presentation"
+          aria-label="FACE THROWING A KISS"
+        ></em>
+        Fullscreen Video Chat
+         </a>
+          . Press
+          <strong>a</strong>
+          to toggle fullscreen mode. 
+          <em
+            class="em kissing_heart"
+            aria-role="presentation"
+            aria-label="FACE THROWING A KISS"
+          ></em>
+          <p>And then....... Write to chat in real time!</p>
+      </h1>
+    </div>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

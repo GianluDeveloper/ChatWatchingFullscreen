@@ -1,0 +1,162 @@
+#credits {
+  padding: 0 0 10px 0;
+  font: 'Open Sans', italic 12px, sans-serif;
+}
+
+#video {
+  max-width: 100%;
+}
+#video:fullscreen {
+  background-color: #000;
+}
+video {
+  max-width: 100%;
+}
+video:fullscreen {
+  max-width: 100%;
+}
+iframe {
+  max-width: 100%;
+}
+iframe:fullscreen {
+  max-width: 100%;
+}
+#chat {
+  position: absolute;
+  float: right;
+  /*width: 640px;*/
+  min-height: 100px;
+
+  background-color: #fff;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+
+  font-size: 24px;
+}
+
+#chat {
+  display: inline-block;
+  position: absolute;
+  margin-top: 80px;
+  width: 100%;
+  opacity: 0.7;
+  text-align: left;
+
+  /*animation:stuff 16s linear infinite;*/
+}
+#mywrite {
+  /*width: 100%;*/
+  text-align: left;
+  color: aquamarine;
+  background: rgba(0, 0, 0, 0);
+  font-size: 24px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 30px;
+  opacity: 0.5;
+}
+
+video {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+iframe {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.message {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.6s ease opacity, 0.6s ease transform;
+}
+.em-heart {
+  background-image: url('2764.png');
+}
+.em-heart.em-svg {
+  background: url('2764.png');
+}
+
+.occhiheart {
+  background-image: url('1f60d.png');
+}
+.sorrisino {
+  background-image: url('1f642.png');
+}
+.sorrisocuori {
+  background-image: url('1f970.png');
+}
+
+.kissing_heart {
+  background-image: url('1f618.png');
+}
+.em-kissing_heart.em-svg {
+  background: url('1f618.png');
+}
+
+.joy_cat {
+  background-image: url('1f639.png');
+}
+.em-joy_cat.em-svg {
+  background: url('1f639.png');
+}
+
+.kiss {
+  background-image: url('1f48b.png');
+}
+.em-kiss.em-svg {
+  background: url('1f48b.png');
+}
+
+.lingua {
+  background-image: url('1f61c.png');
+}
+.em-lingua.em-svg {
+  background: url('1f61c.png');
+}
+
+.em,
+.em-svg {
+  height: 1.5em;
+  width: 1.5em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.holder {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.frame {
+  width: 100%;
+  min-height: 100px;
+  background: #000;
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: red;
+}
+
+.nuvoletta,
+#mywrite {
+  background-color: black;
+  border-radius: 10px;
+  padding: 8px;
+  margin-top: 15px;
+}
+#mywrite {
+  margin-top: 40px;
+  margin-left: 20px;
+}
