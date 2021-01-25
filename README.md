@@ -6,4 +6,4 @@ This project aims to do that. It's configured out of the box to work with Youtub
 
 Watch a live example at <https://gianlu.dev/videoTogether/>
 
-[Screenshot](SampleChat.png)
+![Screenshot](SampleChat.png)
